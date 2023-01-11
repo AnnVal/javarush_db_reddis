@@ -39,13 +39,15 @@ public class City {
         return country;
     }
 
+    public String getDistrict() {
+        return district;
+    }
+
     public void setCountry(Country country) {
         this.country = country;
     }
 
-    public String getDistrict() {
-        return district;
-    }
+
 
     public void setDistrict(String district) {
         this.district = district;
